@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eec7a1c853.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#experience">SKILLS</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>SOFTWARE DEVELOPER</p>
+                <h1>Hi,I am <span>Neha Sri</span><br>This is my Portfolio </h1>
+            </div>
+            <img src="image/background.jpeg" class="home-image" alt="Home Image">
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/background.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my portfolio!This is my first project in Web Development.i enjoyed to build my portfolio through Frontend Development.
+                        I'am a passionate web developer and designer specializing in creating intuitive and dynamic web applications.
+                        With expertise in front-end and back-end development, I bring websites and web applications to life using technologies like HTML,
+                         CSS and JavaScript. I also have experience with database management and server-side programming.
+                         I've completed several certifications, including NPTEL and Tableau, and recently developed a music website with HTML, CSS, and JavaScript.
+                          My work has been recognized for its innovative design and efficient functionality.
+                          Feel free to explore my portfolio and reach out if you’d like to collaborate on an exciting project!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links"  onclick="opentab('Achievements')">Achievements</p>
+                        <p class="tab-links"  onclick="opentab('Certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>2022-Current</span><br>BTech at PVPSIT</li>
+                            <li><span>2020-2022</span><br>Intermediate MPC at Star Junior College</li>
+                            <li><span>2020</span><br>SSC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achievements">
+                        <ul>
+                            <li><span>Academic Achievements</span><br>Maintained around 9.2 cgpa upto sem-4</li>
+                            <li><span>Research papers</span><br>Published related to availability of 24/7 hospitals</li>
+                            <li><span>WAY Organisation</span><br>Acting as a Volunteer in Abhaya Project</li>
+                            <li><span>Competition</span><br>Secured 1 st prize in "Make a Reel Competition"</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>Tableau</span><br>DATA VISUALISATION OF EMERGENCY HOSPITALS OPERATIONAL
+                                AROUND THE CLOCK IN ANDHRA PRADESH
+                                </li>
+                            <li><span>NPTEL</span><br>Secured 72% in DBMS 8 weeks course</li>
+                            <li><span>Infosys Springboard</span><br>Secured AIML certifications</li>
+                            <li><span>AICTE</span><br>Secured certifications on Cybersecurity and AIML Internships</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="experience">
+        <div class="container">
+            <div class="section-header">
+                <p class="section_text_p1">Explore My</p>
+                <h1 class="title">Skills</h1>
+            </div>
+            <div class="experience-details-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./image/image.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/css.jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/js" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./image/js" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/skills.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/py.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Portfolio -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designed and developed a music website with interactive features such as play
+                         and pause buttons for audio control. The site provides a seamless user 
+                         experience with intuitive media playback, implemented using HTML, CSS, and JavaScript. 
+                        </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-book"></i>
+                    <h2>Book Management System</h2>
+                    <p>Developed a web-based application that enables users to register, edit, and delete books.
+                        Utilized JSP for the front-end and connected to a backend database to manage book records.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Participated in a web development project conducted by Cognorise Infotech.
+                        Successfully completed tasks including BMI Calculator Countdown Timer</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        
+     </div>
+
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  parasaramnehasri@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  9347879059  </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/parasaram-neha-sri-aa89b6313/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=" "><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="image/resume.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="copyright">
+                <p>Copyright @ 2024 NehaSri<i class="fa-solid fa-heart"></i>All rights reserved.</p>
+            </div>
+        </div>
+    </div>   
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzga1onI54nHcPPJy9uOsH_BUaUlOErEXwr9zuqoUAiAbbcs4XX3ZJh-qHxW0-li3DSVA/exec'
+        const form = document.forms['submit-to-google-sheet']
+    
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
